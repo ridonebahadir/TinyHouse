@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dabd26c5d546d14ab3784e004151f46, type: 3}
+  m_Name: CraneStats_Area 3
+  m_EditorClassIdentifier: 
+  id: Crane_2
+  increaseInterval: 7
+  CollectedPieces: 0
+  armLength: -10
+  armUpgradeSprite: {fileID: 21300000, guid: 174e4973760c94b30a538c0832e2ccfe, type: 3}
+  armUpgradeDescription: Arm Length
+  vacuumScale: 1
+  vacuumScaleUpgradeSprite: {fileID: 21300000, guid: e09b27068e1b249dcad4f35de22ed68a,
+    type: 3}
+  vacuumScaleDescription: Vacuum Scale
+  maxVacuumLevel: 10
+  ballScale: 1
+  ballScaleUpgradeSprite: {fileID: 21300000, guid: 8bf4b07e5482e4f629d79dccb8fb8255,
+    type: 3}
+  ballScaleDescription: Ball Scale
+  maxBallLevel: 10
